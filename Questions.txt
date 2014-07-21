@@ -1,0 +1,5 @@
+Questions:
+
+how to spec an alert in mocha for an error case
+why are tests still failing when app works
+
