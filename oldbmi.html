@@ -1,0 +1,50 @@
+<div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Body Mass Calculator</h2>
+
+          <form id="bmi-form">
+            <div class="form-group">
+              <label for="current-weight">Enter your weight:  </label>
+              <input id="current-weight" type="number" placeholder="  123.00"><br>
+
+              <input type="radio" name="weightUnits" value="pounds" checked> Pounds
+              <input type="radio" name="weightUnits" value="kilograms"> Kilograms
+            </div>
+
+
+            <div class="form-group">
+              <label for="current-height">Enter your height:  </label>
+              <input id="current-height" type="number" placeholder="  99.00"><br>
+
+              <input type="radio" name="heightUnits" value="inches" checked> Inches
+              <input type="radio" name="heightUnits" value="meters"> Meters
+            </div>
+
+             <div class="form-group">
+              <label for="current-age">Enter your age:  </label>
+              <input id="current-age" type="number" placeholder="  19-999">
+            </div>
+
+              <button type="submit" class="btn btn-primary">Calculate</button>
+          </form>
+           </div>
+
+        <div id="result" class="result">
+        <br>
+        <br>
+
+          <p><h4>Weight: <span class="weight">currentWeight</span><br>  Height: <span class="height"></span><br>  Age: <span class="age"></span></h4>
+
+           <hr>
+          <p><h4>Your BMI is:  <span class="bmi"></span> </h4>
+
+          <h4> The normal BMI range for your age is: <span class="range-result">normal-range-result</span></h4>
+
+          <h4> Given your weight, you should <span class="change">change </span>  <span class="amountlbs">amountLbs </span> pounds or <span class="amountkgs">amountKgs kilos </span> to reach a normal BMI.<p> <br> <p>Your new target weight is <span class="targetWeight">targetWeight.</span><p></span></h4></p>
+
+          <span class="range"></span>
+
+        </div><!--end col-md-6-->
+      </div><!--end -row-->
+    </div><!--end container-->

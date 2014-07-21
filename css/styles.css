@@ -1,0 +1,17 @@
+#bmi-form {
+    background: #cccccc;
+    border: 2px solid #DDD;
+    max-width: 300px;
+    margin: 20px 30px 20px 10px;
+    padding: 20px 30px 20px 30px;
+}
+
+#result {
+	display:none;
+    padding: 20px 30px 20px 30px;
+}
+
+.bmi {
+    color: #FE642E;
+    padding: 5px 5px 5px 5px;
+}
